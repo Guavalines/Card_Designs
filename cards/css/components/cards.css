@@ -23,6 +23,12 @@
   align-items: center;
 }
 
+.card-product img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+  }
+
 .card-trip {
   overflow: hidden;
   background: white;
