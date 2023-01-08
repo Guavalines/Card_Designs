@@ -29,12 +29,38 @@
   object-fit: cover;
   }
 
+.card-product-infos {
+  padding: 16px;
+}
+
+.card-product-infos h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  height: 19px;
+  width: 230px;
+  }
+
+.card-product p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+  }
+
 .card-trip {
   overflow: hidden;
   background: white;
   box-shadow: 0 0 15px rgb(0 0 0 / 20%);
-
 }
+
+.card-trip > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  }
+
 .card-trip h2 {
   font-size: 16px;
   font-weight: bold;
